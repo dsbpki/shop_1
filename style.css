@@ -1,0 +1,70 @@
+
+@media (max-width: 450px){
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    
+    }
+    
+    html{
+        font-size: 62.5%;
+        font-family: 'DM Sans', sans-serif;
+    }
+    
+    header{
+        height: 20vh;
+        border: solid 1px #33FCFF;
+        background-color:darkorange;
+    }
+    header nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        list-style: none;
+    }
+    header nav ul a{
+        font-size: 1.4rem;
+        color:darkslateblue;
+    }
+    
+    .header-title h1 {
+        font-size: 2rem;
+        width: fit-content;
+        margin: auto;
+        line-height: 4.5;   
+        color: black;
+    }
+    
+    main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    .product-container{
+        
+        margin: 15px;
+    }
+    
+    .product-container h2{
+        font-size: 1.8rem;
+        width: fit-content;
+        margin: auto;
+    }
+    
+    .product-container p{
+        font-size: 1.8rem;
+        width: fit-content;
+        margin: auto;
+        
+    }
+    .product-container p a{
+        color: burlywood;
+    }
+    
+    .product-container img{
+        width: 300px;
+    
+    }
+}
